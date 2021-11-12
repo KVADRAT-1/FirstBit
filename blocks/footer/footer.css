@@ -1,0 +1,20 @@
+.footer {
+    margin: 92px 48px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        margin: 88px 24px 24px;
+    }
+}
+
+@media (max-width:767px) { 
+    .footer {
+        max-width: 320px;
+        margin: 64px 0 24px 16px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
