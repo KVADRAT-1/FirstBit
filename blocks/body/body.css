@@ -1,4 +1,27 @@
 .body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+/* all -------------------------------------------------*/
+
+.chapter {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.chapter:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 70px;
+    height: 200%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
 }
 
 /* header -------------------------------------------------------------- */
@@ -22,7 +45,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     opacity: 0.95;
     z-index: 0;
 }
@@ -72,6 +95,15 @@
     margin: 0 0 0 40px;
 }
 
+.header__menu-link {
+    color: #141414;
+    text-decoration: none;
+}
+
+.header__menu-link.active {
+    color: #1f58ff;
+}
+
 .header__menu-item:first-child {
     margin: 0 0 0 0;
 }
@@ -80,7 +112,7 @@
     .header.active:before {
         height: 100vh;
         background-color: rgb(0, 0, 0);
-        opacity: 0.2;
+        opacity: 0.4;
     }
 
     .header__burger {
@@ -161,106 +193,271 @@
 /* content -------------------------------------------------------------- */
 
 .content {
-    margin-top: 100px;
+    margin: 200px 0 0;
 }
 
 /* introduction -------------------------------------------------------------- */
 
 .introduction {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
 }
 
 .introduction__box {
+    max-width: 481px;
+    margin-right: auto;
 }
 
-.introduction__chapter {
+/* .introduction__chapter {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
 }
+
+.introduction__chapter:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 60px;
+    height: 150%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+} */
 
 .introduction__title {
+    font-weight: 700;
+    font-size: 64px;
 }
 
 .introduction__subtitle {
+    margin: 0 0 40px 0;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .introduction__info {
+    display: flex;
 }
 
 .introduction__box-price {
 }
 
 .introduction__today {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .introduction__price {
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(255, 96, 0);
 }
 
 .introduction__button {
+    margin-right: 20px;
+    padding: 20px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    color: white;
+}
+
+.introduction__button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 .introduction__image {
+    max-width: 567px;
+    max-height: 685px;
+}
+
+@media (max-width: 1240px) {
+    .introduction__chapter {
+        font-size: 12px;
+    }
+
+    .introduction__title {
+        font-size: 56px;
+    }
+
+    .introduction__subtitle {
+        margin: 0 0 30px 0;
+        font-size: 21px;
+    }
+
+    .introduction__today {
+        font-size: 14px;
+    }
+
+    .introduction__price {
+        font-size: 31px;
+    }
+
+    .introduction__button {
+        padding: 17px 35px;
+        font-size: 14px;
+    }
+
+    .introduction__image {
+        max-width: 494px;
+        max-height: 596px;
+    }
 }
 
 /* reviews -------------------------------------------------------------- */
 
 .reviews {
-}
-
-.reviews__grid {
-}
-
-.reviews__grid-item {
-}
-
-.reviews__grid-image {
-}
-
-.reviews__grid-item-numper {
-}
-
-.reviews__grid-item-text {
-}
-
-.reviews__grid-item-image {
+    padding: 200px 25px 200px;
+    background-color: #f4f4f4;
 }
 
 .reviews__container {
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 244px);
+    grid-template-rows: repeat(2, 287px);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    color: #1f58ff;
+}
+
+.reviews__grid-item {
+    max-width: 244px;
+    max-height: 287px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.reviews__grid-image {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews__grid-icon {
+    width: 48px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+.reviews__grid-item-numper {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.reviews__grid-item-text {
+    max-width: 145px;
+    margin: 20px auto 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.reviews__box {
+    max-width: 445px;
+    margin-left: 50px;
+    padding-top: 50px;
 }
 
 .reviews__chapter {
 }
 
 .reviews__title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
 }
 
 .reviews__paragraph {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.reviews__button {
+    margin-top: 50px;
+    padding: 12px 40px;
+    border: none;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    background-color: #1f58ff;
+    color: white;
+    border-radius: 20px;
 }
 
 /* about-henry -------------------------------------------------------------- */
 
 .about-henry {
+    padding: 120px 25px;
+    background-size: cover 100%;
+    background-position: bottom;
+    background-image: url(/images/about-henry/about-henry__background.jpg);
+}
+
+.about-henry__container {
+    max-width: 530px;
+    margin: 0 auto 0 18%;
+}
+
+.about-henry__container span {
+    color: #1f58ff;
 }
 
 .about-henry__chapter {
 }
 
 .bout-henry__title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
 }
 
 .bout-henry__subtitle {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
 }
 
 .bout-henry__paragraph {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .about-henry__list {
+    display: flex;
+    padding: 0;
+    list-style: none;
 }
 
 .about-henry__item {
+    margin-right: 25px;
 }
 
 .about-henry__link {
 }
 
 .about-henry__icon {
+    width: 40px;
 }
 
 /* chapter-one -------------------------------------------------------------- */

@@ -17,13 +17,13 @@
           <img src="./images/header/header__logo-black.png" class="header__logo" alt="logo">
           <nav class="header__menu">
             <ul class="header__menu-list">
-              <li class="header__menu-item">Home</li>
-              <li class="header__menu-item">The Book</li>
-              <li class="header__menu-item">Author's Bio</li>
-              <li class="header__menu-item">Sample</li>
-              <li class="header__menu-item">Table of Contents</li>
-              <li class="header__menu-item">Newsletter</li>
-              <li class="header__menu-item">Order the Book</li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#1">Home</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#2">The Book</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#3">Author's Bio</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#4">Sample</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#5">Table of Contents</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#6">Newsletter</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#7">Order the Book</a></li>
             </ul>
           </nav>
           <div class="header__burger">
@@ -37,87 +37,93 @@
 
     <main class="content">
 
-      <section class="introduction">
+      <section class="introduction" id="1">
         <div class="introduction__box">
-          <div class="introduction__chapter">INTRODUCTION</div>
+          <div class="introduction__chapter chapter">INTRODUCTION</div>
           <h1 class="introduction__title">NEW BOOK "The intelligent investor"</h1>
           <h3 class="introduction__subtitle">
             Buy a book that will help you grow your business.
           </h3>
           <div class="introduction__info">
+            <button class="introduction__button" type="button">Order now</button>
             <div class="introduction__box-price">
-              <div class="introduction__today">
-                Today's price
-              </div>
               <div class="introduction__price">
                 $8,99
               </div>
+              <div class="introduction__today">
+                Today's price
+              </div>
             </div>
-            <button class="introduction__button" type="button">Order now</button>
           </div>
         </div>
         <img class="introduction__image" src="./images/introduction/introduction__image-ebook.png" alt="book">
       </section>
 
-      <section class="reviews">
-        <div class="reviews__grid">
-          <div class="reviews__grid-item">
-            <img class="reviews__grid-image" src="./images/reviews/reviews__image-girl.png" alt="image">
-          </div>
-          <div class="reviews__grid-item">
-            <div class="reviews__grid-item-numper">4/5</div>
-            <div class="reviews__grid-item-text">AVERAGE RATING</div>
-          </div>
-          <div class="reviews__grid-item">
-            <img class="reviews__grid-item-image" src="./images/reviews/reviews__icon-headphones.png" alt="image">
-            <div class="reviews__grid-item-text">AUDIOBOOK AVAILABLE</div>
-          </div>
-          <div class="reviews__grid-item">
-          </div>
-        </div>
+      <section class="reviews" id="2">
         <div class="reviews__container">
-          <div class="reviews__chapter">THE BOOK</div>
-          <h2 class="reviews__title">A few words about the book"</h2>
-          <p class="reviews__paragraph">
-            Fusce ut velit laoreet, tempus arcu eu, molestie tortor.
-            Nam vel justo cursus, faucibus lorem eget, egestas eros.
-            Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
-          </p>
-          <button type="button">REVIEWS</button>
+          <div class="reviews__grid">
+            <div class="reviews__grid-item">
+              <img class="reviews__grid-image" src="./images/reviews/reviews__image-girl.png" alt="image">
+            </div>
+            <div class="reviews__grid-item">
+              <img class="reviews__grid-icon" src="./images/reviews/reviews__icon-headphones.png" alt="icon">
+              <div class="reviews__grid-item-text">AUDIOBOOK AVAILABLE</div>
+            </div>
+            <div class="reviews__grid-item">
+              <div class="reviews__grid-item-numper">4/5</div>
+              <div class="reviews__grid-item-text">AVERAGE RATING</div>
+            </div>
+            <div class="reviews__grid-item">
+              <img class="reviews__grid-image" src="./images/reviews/reviews__image-book.png" alt="image">
+            </div>
+          </div>
+          <div class="reviews__box">
+            <div class="reviews__chapter chapter">THE BOOK</div>
+            <h2 class="reviews__title">A few words about the book"</h2>
+            <p class="reviews__paragraph">
+              Fusce ut velit laoreet, tempus arcu eu, molestie tortor.
+              Nam vel justo cursus, faucibus lorem eget, egestas eros.
+              Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
+            </p>
+            <button class="reviews__button" type="button">REVIEWS</button>
+          </div>
         </div>
       </section>
 
-      <section class="about-henry">
-        <div class="about-henry__chapter">HENRY WICK</div>
-        <h2 class="bout-henry__title">My name is Henry Wick I'm writing business books</h2>
-        <h3 class="bout-henry__subtitle">I've been a businessman and writer for 9 years</h3>
-        <p class="bout-henry__paragraph">
-          Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat,
-          a feugiat urna maximus. Cras massa nibh, tincidunt.
-        </p>
-        <ul class="about-henry__list">
-          <li class="about-henry__item">
-            <a class="about-henry__link">
-              <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-instagram.png" alt="instagram">
-            </a>
-          </li>
-          <li class="about-henry__item">
-            <a class="about-henry__link">
-              <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-twitter.png" alt="twitter">
-            </a>
-          </li>
-          <li class="about-henry__item">
-            <a class="about-henry__link">
-              <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-facebook.png" alt="facebook">
-            </a>
-          </li>
-        </ul>
+      <section class="about-henry" id="3">
+        <div class="about-henry__container">
+          <div class="about-henry__chapter chapter">HENRY WICK</div>
+          <h2 class="bout-henry__title">My name is <span>Henry Wick</span> I'm writing business books</h2>
+          <h3 class="bout-henry__subtitle">I've been a businessman and writer for <span>9 years</span></h3>
+          <p class="bout-henry__paragraph">
+            Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat,
+            a feugiat urna maximus. Cras massa nibh, tincidunt.
+          </p>
+          <ul class="about-henry__list">
+            <li class="about-henry__item">
+              <a class="about-henry__link">
+                <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-instagram.png"
+                  alt="instagram">
+              </a>
+            </li>
+            <li class="about-henry__item">
+              <a class="about-henry__link">
+                <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-twitter.png" alt="twitter">
+              </a>
+            </li>
+            <li class="about-henry__item">
+              <a class="about-henry__link">
+                <img class="about-henry__icon" src="./images/about-henry/about-henry__icon-facebook.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="chapter-one">
+      <section class="chapter-one" id="4">
         <div class="chapter-one__grid">
           <div class="chapter-one__grid-item">
-            <div class="chapter-one__chapter">CHAPTER 1</div>
+            <div class="chapter-one__chapter chapter">CHAPTER 1</div>
             <h2 class="chapter-one__title">Intuition is not a good advisor</h2>
           </div>
           <div class="chapter-one__grid-item">
@@ -153,8 +159,8 @@
         </div>
       </section>
 
-      <section class="contents">
-        <div class="contents__chapter">TABLE OF CONTENTS</div>
+      <section class="contents" id="5">
+        <div class="contents__chapter chapter">TABLE OF CONTENTS</div>
         <div class="contents__box">
           <article class="contents__item">
             <div class="contents__number">01</div>
@@ -204,9 +210,9 @@
         </div>
       </section>
 
-      <section class="newsletter">
+      <section class="newsletter" id="6">
         <div class="newsletter__box">
-          <div class="newsletter__chapter">NEWSLETTER</div>
+          <div class="newsletter__chapter chapter">NEWSLETTER</div>
           <h2 class="newsletter__title">Subscribe to our newsletter</h2>
           <p class="newsletter__paragraph">
             Quis ipsum suspendisse ultrices gravida. Commodo viverra maecenas accumsan.
@@ -218,9 +224,9 @@
           <img class="newsletter__image" src="./images/newsletter/newsletter__image.jpg" alt="image">
       </section>
 
-      <section class="order-book">
+      <section class="order-book" id="7">
         <div class="order-book__box">
-          <div class="order-book__chapter">ORDER THE BOOK</div>
+          <div class="order-book__chapter chapter">ORDER THE BOOK</div>
           <h2 class="order-book__title">You can buy my ebook right now</h2>
           <p class="order-book__paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
