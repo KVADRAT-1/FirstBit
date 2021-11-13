@@ -3,7 +3,7 @@
     background-color: rgb(245, 245, 245);
 }
 
-/* all -------------------------------------------------*/
+/* all ---------------------------------------------------------------------------------------------------------------*/
 
 .chapter {
     font-weight: 500;
@@ -24,7 +24,13 @@
     z-index: -1;
 }
 
-/* header -------------------------------------------------------------- */
+.hover:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* header ---------------------------------------------------------------------------------------------------------------------------- */
 
 .header {
     position: fixed;
@@ -190,13 +196,13 @@
     }
 }
 
-/* content -------------------------------------------------------------- */
+/* content ---------------------------------------------------------------------------------------------------------------------------- */
 
 .content {
     margin: 200px 0 0;
 }
 
-/* introduction -------------------------------------------------------------- */
+/* introduction ---------------------------------------------------------------------------------------------------------------------------- */
 
 .introduction {
     max-width: 1080px;
@@ -264,15 +270,9 @@
     font-weight: 500;
     font-size: 16px;
     background-color: black;
-    border: none;
     border-radius: 40px;
     color: white;
-}
-
-.introduction__button:hover {
-    opacity: 0.7;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
 .introduction__image {
@@ -313,7 +313,7 @@
     }
 }
 
-/* reviews -------------------------------------------------------------- */
+/* reviews ---------------------------------------------------------------------------------------------------------------------------- */
 
 .reviews {
     padding: 200px 25px 200px;
@@ -395,16 +395,16 @@
 .reviews__button {
     margin-top: 50px;
     padding: 12px 40px;
-    border: none;
     font-size: 16px;
     line-height: 16px;
     font-weight: 500;
     background-color: #1f58ff;
     color: white;
     border-radius: 20px;
+    text-decoration: none;
 }
 
-/* about-henry -------------------------------------------------------------- */
+/* about-henry ---------------------------------------------------------------------------------------------------------------------------- */
 
 .about-henry {
     padding: 120px 25px;
@@ -460,65 +460,141 @@
     width: 40px;
 }
 
-/* chapter-one -------------------------------------------------------------- */
+/* chapter-one ---------------------------------------------------------------------------------------------------------------------------- */
 
 .chapter-one {
+    padding: 120px 25px;
+    background-image: url(/images/chapter-one/chapter-one__background.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .chapter-one__grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 382px 1fr;
+    row-gap: 70px;
+    column-gap: 50px;
 }
 
 .chapter-one__grid-item {
+}
+
+.chapter-one__grid-item:first-child {
+    border-bottom: 1px solid black;
 }
 
 .chapter-one__chapter {
 }
 
 .chapter-one__title {
+    margin: 30px 0 70px;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
 }
 
 .chapter-one__subtitle {
+    margin: 0;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
 }
 
 .chapter-one__image {
+    max-width: 382px;
+    max-height: 407px;
+}
+
+.chapter-one__grid-text {
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.chapter-one__container-price {
+    margin-top: 70px;
+    display: flex;
 }
 
 .chapter-one__box-price {
 }
 
 .chapter-one__price {
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(255, 96, 0);
 }
 
 .chapter-one__today {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .chapter-one__button {
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff6000;
+    color: white;
+    font-weight: 600;
 }
 
-/* contents -------------------------------------------------------------- */
+/* contents ---------------------------------------------------------------------------------------------------------------------------- */
 
 .contents {
+    background-color: white;
+}
+
+.contents__chapter:before {
+    background-color: rgb(245, 245, 245);
 }
 
 .contents__chapter {
+    margin-bottom: 100px;
 }
 
 .contents__box {
+    width: 660px;
+    margin: 0 auto;
+    padding: 150px 20px;
 }
 
 .contents__item {
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
 }
 
 .contents__number {
+    color: #1f58ff;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
 }
 
 .contents__box-text {
+    margin-left: 50px;
 }
 
 .contents__title {
+    margin: 0 0 25px 0;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
 }
 
 .contents__paragraph {
+    margin: 0 0 40px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8a8a8a;
 }
 
 /* newsletter -------------------------------------------------------------- */

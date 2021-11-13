@@ -1,14 +1,13 @@
 const { log } = console
+const sections = $('section'),
+    nav = $('nav'),
+    nav_height = nav.outerHeight()
 
 $(document).ready(function () {
     $('.header__burger').click(function (event) {
         $('.header__burger, .header__menu, .header').toggleClass('active')
     })
 })
-
-const sections = $('section'),
-    nav = $('nav'),
-    nav_height = nav.outerHeight()
 
 $(window).on('scroll', function () {
     const cur_pos = $(this).scrollTop()
