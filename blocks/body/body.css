@@ -95,9 +95,6 @@
     display: none;
 }
 
-.header__menu {
-}
-
 .header__menu-list {
     display: flex;
     padding: 0;
@@ -167,10 +164,6 @@
     }
     .header__burger:after {
         bottom: 0;
-    }
-
-    .header__menu-list {
-        /* display: none; */
     }
 
     .header__body {
@@ -250,9 +243,6 @@
     display: flex;
 }
 
-.introduction__box-price {
-}
-
 .introduction__today {
     font-weight: 400;
     font-size: 16px;
@@ -279,39 +269,6 @@
     max-width: 567px;
     max-height: 685px;
 }
-
-/* @media (max-width: 1240px) {
-    .introduction__chapter {
-        font-size: 12px;
-    }
-
-    .introduction__title {
-        font-size: 56px;
-    }
-
-    .introduction__subtitle {
-        margin: 0 0 30px 0;
-        font-size: 21px;
-    }
-
-    .introduction__today {
-        font-size: 14px;
-    }
-
-    .introduction__price {
-        font-size: 31px;
-    }
-
-    .introduction__button {
-        padding: 17px 35px;
-        font-size: 14px;
-    }
-
-    .introduction__image {
-        max-width: 494px;
-        max-height: 596px;
-    }
-} */
 
 @media (max-width: 1024px) {
     .introduction {
@@ -347,9 +304,6 @@
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .introduction__box-price {
     }
 
     .introduction__today {
@@ -434,9 +388,6 @@
     max-width: 445px;
     margin-left: 50px;
     padding-top: 50px;
-}
-
-.reviews__chapter {
 }
 
 .reviews__title {
@@ -552,9 +503,6 @@
     color: #1f58ff;
 }
 
-.about-henry__chapter {
-}
-
 .bout-henry__title {
     font-size: 48px;
     line-height: 52px;
@@ -581,9 +529,6 @@
 
 .about-henry__item {
     margin-right: 25px;
-}
-
-.about-henry__link {
 }
 
 .about-henry__icon {
@@ -649,14 +594,8 @@
     column-gap: 50px;
 }
 
-.chapter-one__grid-item {
-}
-
 .chapter-one__grid-item:first-child {
     border-bottom: 1px solid black;
-}
-
-.chapter-one__chapter {
 }
 
 .chapter-one__title {
@@ -688,9 +627,6 @@
 .chapter-one__container-price {
     margin-top: 70px;
     display: flex;
-}
-
-.chapter-one__box-price {
 }
 
 .chapter-one__price {
@@ -739,9 +675,6 @@
         border-bottom: 1px solid black;
         padding-bottom: 70px;
         margin-bottom: 70px;
-    }
-
-    .chapter-one__chapter {
     }
 
     .chapter-one__title {
@@ -904,9 +837,6 @@
     background-color: #141414;
 }
 
-.newsletter__chapter {
-}
-
 .newsletter__chapter:before {
     background-color: #1f58ff;
 }
@@ -1059,14 +989,8 @@
     align-items: center;
 }
 
-.order-book__box-price {
-}
-
 .order-book__price {
     margin: 0;
-}
-
-.order-book__today {
 }
 
 .order-book__today {
@@ -1155,9 +1079,6 @@
     background-size: 100%;
 }
 
-.cover__overlay {
-}
-
 .cover__title {
     max-width: 930px;
     margin: 0 auto 100px;
@@ -1209,9 +1130,6 @@
         background-size: cover;
     }
 
-    .cover__overlay {
-    }
-
     .cover__title {
         max-width: 930px;
         margin: 0 auto 100px;
@@ -1252,9 +1170,6 @@
 .footer__list {
     padding: 0;
     list-style: none;
-}
-
-.footer__item {
 }
 
 .footer__logo {
