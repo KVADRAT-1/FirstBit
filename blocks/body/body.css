@@ -113,6 +113,10 @@ h4 {
     margin: 0 0 0 40px;
 }
 
+.header__menu-item:first-child {
+    margin: 0 0 0 0;
+}
+
 .header__menu-link {
     color: #141414;
     text-decoration: none;
@@ -126,10 +130,6 @@ h4 {
 
 .header__menu-link.active {
     color: #1f58ff;
-}
-
-.header__menu-item:first-child {
-    margin: 0 0 0 0;
 }
 
 @media (max-width: 1240px) {
@@ -1026,10 +1026,6 @@ h4 {
     align-items: center;
 }
 
-.order-book__price {
-    margin: 0;
-}
-
 .order-book__today {
     margin: 0;
     font-weight: 400;
@@ -1037,6 +1033,7 @@ h4 {
 }
 
 .order-book__price {
+    margin: 0;
     font-family: 'Space Grotesk';
     font-weight: 500;
     font-size: 36px;

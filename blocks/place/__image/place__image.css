@@ -1,9 +1,0 @@
-.place__image {
-    width: 100%;
-}
-
-@media (max-width:767px) { 
-    .place__image {
-        margin: 32px 0;
-    }
-}

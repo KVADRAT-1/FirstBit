@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.chapter {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.chapter:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 70px;
+    height: 200%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.hover:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1024px) {
+    .chapter {
+        width: max-content;
+        margin: 0 auto;
+    }
+}
