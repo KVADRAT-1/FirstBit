@@ -30,7 +30,7 @@
     transition: all 0.3s ease 0s;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
     .chapter {
         width: max-content;
         margin: 0 auto;
@@ -215,6 +215,12 @@
     margin: 200px 0 0;
 }
 
+@media (max-width: 1240px) {
+    .content {
+        margin: 100px 0 0;
+    }
+}
+
 /* introduction ---------------------------------------------------------------------------------------------------------------------------- */
 
 .introduction {
@@ -274,7 +280,7 @@
     max-height: 685px;
 }
 
-@media (max-width: 1240px) {
+/* @media (max-width: 1240px) {
     .introduction__chapter {
         font-size: 12px;
     }
@@ -304,6 +310,65 @@
     .introduction__image {
         max-width: 494px;
         max-height: 596px;
+    }
+} */
+
+@media (max-width: 1024px) {
+    .introduction {
+        max-width: 555px;
+        margin: 0 auto;
+        padding: 0 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduction__box {
+        max-width: 510px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .introduction__chapter {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .introduction__title {
+        line-height: 72px;
+        font-size: 68px;
+    }
+
+    .introduction__subtitle {
+        display: none;
+    }
+
+    .introduction__info {
+        width: 260px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .introduction__box-price {
+    }
+
+    .introduction__today {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .introduction__button {
+        height: min-content;
+        padding: 12px 23px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .introduction__image {
+        margin: 50px auto 0 50px;
+        width: 350px;
+        height: 423px;
     }
 }
 
@@ -465,14 +530,7 @@
     }
 
     .reviews__button {
-        padding: 12px 40px;
-        font-size: 16px;
-        line-height: 16px;
-        font-weight: 500;
-        background-color: #1f58ff;
-        color: white;
-        border-radius: 20px;
-        text-decoration: none;
+        font-weight: 600;
     }
 }
 
@@ -1144,7 +1202,7 @@
 
 @media (max-width: 1024px) {
     .cover {
-        padding: 140px 0 100px;
+        padding: 140px 20px 100px;
         background-image: url(/images/cover/cover__image.jpg);
         background-position: top;
         background-repeat: no-repeat;
@@ -1246,7 +1304,7 @@
 
 @media (max-width: 1024px) {
     .footer {
-        padding: 70px 25px 30px;
+        padding: 70px 20px 30px;
         background-color: #141414;
         color: white;
     }
