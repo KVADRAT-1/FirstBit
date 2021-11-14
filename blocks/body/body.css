@@ -976,65 +976,65 @@ h4 {
 
 /* order-book -------------------------------------------------------------- */
 
-.order-book {
+/* .order-book {
     padding: 130px 0;
     background-color: white;
-}
+} */
 
-.order-book__container {
+/* .order-book__container {
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 25px;
     display: flex;
-}
+} */
 
-.order-book__box {
+/* .order-book__box {
     max-width: 635px;
     margin-right: auto;
-}
+} */
 
-.order-book__chapter {
+/* .order-book__chapter {
     margin-top: 70px;
 }
 
 .order-book__chapter:before {
     background-color: rgb(240, 240, 240);
-}
+} */
 
-.order-book__title {
+/* .order-book__title {
     margin: 30px 0 15px;
     font-size: 48px;
     line-height: 52px;
     font-weight: 700;
-}
+} */
 
-.order-book__paragraph {
+/* .order-book__paragraph {
     margin: 0 0 50px 0;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-}
+} */
 
-.order-book__info {
+/* .order-book__info {
     display: flex;
     align-items: center;
-}
+} */
 
-.order-book__today {
+/* .order-book__today {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
-}
+} */
 
-.order-book__price {
+/* .order-book__price {
     margin: 0;
     font-family: 'Space Grotesk';
     font-weight: 500;
     font-size: 36px;
     color: rgb(255, 96, 0);
-}
+} */
 
-.order-book__button {
+/* .order-book__button {
     width: 150px;
     height: 40px;
     margin-left: 60px;
@@ -1044,58 +1044,58 @@ h4 {
     border: none;
     color: white;
     background-color: rgb(255, 96, 0);
-}
+} */
 
-.order-book__image {
+/* .order-book__image {
     max-width: 423px;
     max-height: 512px;
-}
+} */
 
 @media (max-width: 1024px) {
-    .order-book__container {
+    /* .order-book__container {
         flex-direction: column;
-    }
+    } */
 
-    .order-book__box {
+    /* .order-book__box {
         max-width: 480px;
         margin: 0 auto 50px;
         text-align: center;
-    }
+    } */
 
-    .order-book__title {
+    /* .order-book__title {
         margin: 30px 0 15px;
         font-size: 36px;
         line-height: 39px;
-    }
+    } */
 
-    .order-book__paragraph {
+    /* .order-book__paragraph {
         margin: 0 0 50px 0;
         font-size: 14px;
         line-height: 20px;
-    }
+    } */
 
-    .order-book__info {
+    /* .order-book__info {
         flex-direction: column;
-    }
+    } */
 
-    .order-book__box-price {
+    /* .order-book__box-price {
         margin-bottom: 50px;
-    }
+    } */
 
-    .order-book__today {
+    /* .order-book__today {
         font-size: 13px;
         line-height: 20px;
-    }
+    } */
 
-    .order-book__button {
+    /* .order-book__button {
         margin: 0;
-    }
+    } */
 
-    .order-book__image {
+    /* .order-book__image {
         max-width: 480px;
         max-height: 580px;
         margin: 0 auto;
-    }
+    } */
 }
 
 /* cover -------------------------------------------------------------- */

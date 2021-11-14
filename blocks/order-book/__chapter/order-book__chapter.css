@@ -1,2 +1,7 @@
-@media (max-width: 1024px) {
+.order-book__chapter {
+    margin-top: 70px;
+}
+
+.order-book__chapter:before {
+    background-color: rgb(240, 240, 240);
 }

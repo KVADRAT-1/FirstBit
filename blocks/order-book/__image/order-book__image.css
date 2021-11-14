@@ -1,2 +1,12 @@
+.order-book__image {
+    max-width: 423px;
+    max-height: 512px;
+}
+
 @media (max-width: 1024px) {
+    .order-book__image {
+        max-width: 480px;
+        max-height: 580px;
+        margin: 0 auto;
+    }
 }

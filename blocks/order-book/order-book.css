@@ -1,2 +1,4 @@
-@media (max-width: 1024px) {
+.order-book {
+    padding: 130px 0;
+    background-color: white;
 }

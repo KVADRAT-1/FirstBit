@@ -1,2 +1,10 @@
+.order-book__info {
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 1024px) {
+    .order-book__info {
+        flex-direction: column;
+    }
 }

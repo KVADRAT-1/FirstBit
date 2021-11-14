@@ -1,2 +1,14 @@
+.order-book__title {
+    margin: 30px 0 15px;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
 @media (max-width: 1024px) {
+    .order-book__title {
+        margin: 30px 0 15px;
+        font-size: 36px;
+        line-height: 39px;
+    }
 }

@@ -1,2 +1,12 @@
+.order-book__container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+}
+
 @media (max-width: 1024px) {
+    .order-book__container {
+        flex-direction: column;
+    }
 }

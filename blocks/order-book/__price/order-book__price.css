@@ -1,2 +1,7 @@
-@media (max-width: 1024px) {
+.order-book__price {
+    margin: 0;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 36px;
+    color: rgb(255, 96, 0);
 }

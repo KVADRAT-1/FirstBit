@@ -1,2 +1,14 @@
+.order-book__paragraph {
+    margin: 0 0 50px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
 @media (max-width: 1024px) {
+    .order-book__paragraph {
+        margin: 0 0 50px 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

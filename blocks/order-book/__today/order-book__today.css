@@ -1,2 +1,12 @@
+.order-book__today {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 @media (max-width: 1024px) {
+    .order-book__today {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }

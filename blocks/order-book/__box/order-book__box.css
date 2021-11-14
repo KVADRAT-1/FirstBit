@@ -1,2 +1,12 @@
+.order-book__box {
+    max-width: 635px;
+    margin-right: auto;
+}
+
 @media (max-width: 1024px) {
+    .order-book__box {
+        max-width: 480px;
+        margin: 0 auto 50px;
+        text-align: center;
+    }
 }
