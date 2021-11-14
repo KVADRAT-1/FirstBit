@@ -1,2 +1,21 @@
+.footer__copyright {
+    max-width: 1080px;
+    margin: 80px auto 0;
+    color: #a7a7a7;
+}
+
+.footer__copyright a {
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.footer__copyright a:hover {
+    text-decoration: underline;
+    color: #a7a7a7;
+}
+
 @media (max-width: 1024px) {
+    .footer__copyright {
+        text-align: center;
+    }
 }

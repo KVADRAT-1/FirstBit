@@ -84,3 +84,17 @@
 @import url(../blocks/order-book/__button/order-book__button.css);
 @import url(../blocks/order-book/__image/order-book__image.css);
 @import url(../blocks/order-book/__box-price/order-book__box-price.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__list/cover__list.css);
+@import url(../blocks/cover/__item/cover__item.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

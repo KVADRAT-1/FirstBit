@@ -1,2 +1,12 @@
+.cover__item {
+    width: 115px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 1024px) {
+    .cover__item {
+        margin: 0 auto;
+    }
 }

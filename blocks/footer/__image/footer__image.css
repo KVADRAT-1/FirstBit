@@ -1,2 +1,7 @@
-@media (max-width: 1024px) {
+.footer__image {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 30%;
+    background-color: #a7a7a7;
 }

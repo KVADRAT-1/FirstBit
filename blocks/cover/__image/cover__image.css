@@ -1,2 +1,11 @@
-@media (max-width: 1024px) {
+.cover__image {
+    width: 97px;
+    height: 85px;
+    transition: all 0.3s ease 0s;
+}
+
+.cover__image:hover {
+    width: 111.55px;
+    height: 97.75px;
+    transition: all 0.3s ease 0s;
 }

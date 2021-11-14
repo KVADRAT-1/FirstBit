@@ -1,2 +1,13 @@
-@media (max-width: 1024px) {
+.footer__link {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+    color: #cacaca;
 }

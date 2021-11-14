@@ -1,2 +1,17 @@
+.cover__list {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 1024px) {
+    .cover__list {
+        max-width: 1080px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
