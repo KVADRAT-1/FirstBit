@@ -2,6 +2,31 @@
     display: flex;
     max-width: 520px;
     height: 40px;
+    position: relative;
+}
+
+.newsletter__form.error:before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: rgb(200, 0, 0);
+    transform: rotate(45deg);
+    top: 14px;
+    left: -14px;
+}
+
+.newsletter__form span {
+    display: none;
+    position: absolute;
+    padding: 10px 12px;
+    left: -43px;
+    top: 2px;
+    background-color: rgb(200, 0, 0);
+}
+
+.newsletter__form span.error {
+    display: block;
 }
 
 @media (max-width: 1024px) {

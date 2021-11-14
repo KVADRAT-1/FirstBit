@@ -3,7 +3,9 @@ const sections = $('section'),
     nav = $('nav'),
     nav_height = nav.outerHeight(),
     newsletter__input = $('.newsletter__input'),
-    newsletter__button = $('.newsletter__button');
+    newsletter__button = $('.newsletter__button'),
+    newsletter__error = $('.newsletter__error'),
+    newsletter__form = $('.newsletter__form');
 
 $(document).ready(function () {
     $('.header__burger').click(function (event) {
@@ -48,10 +50,18 @@ $(newsletter__button).on('click', function (e) {
     const regex =
         /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     const text__input = $(newsletter__input).val();
+    if (text__input.length === 0) {
+        $(newsletter__form).addClass('error');
+        $(newsletter__error).addClass('error');
+        return;
+    }
     if (regex.test(text__input)) {
-        alert(text__input);
+        newsletter__form.removeClass('error');
+        newsletter__error.removeClass('error');
+        alert(`✅${text__input}`);
         $(newsletter__input).val('');
     } else {
-        alert('invalid email');
+        $(newsletter__form).addClass('error');
+        $(newsletter__error).addClass('error');
     }
 });
