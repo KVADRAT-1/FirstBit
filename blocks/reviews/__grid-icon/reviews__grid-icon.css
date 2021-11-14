@@ -1,2 +1,5 @@
-@media (max-width: 1024px) {
+.reviews__grid-icon {
+    width: 48px;
+    height: 41px;
+    margin: 0 auto;
 }

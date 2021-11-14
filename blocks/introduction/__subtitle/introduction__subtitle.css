@@ -1,2 +1,12 @@
+.introduction__subtitle {
+    font-family: Roboto;
+    margin: 0 0 40px 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 @media (max-width: 1024px) {
+    .introduction__subtitle {
+        display: none;
+    }
 }

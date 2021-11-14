@@ -1,2 +1,14 @@
+.reviews__paragraph {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
 @media (max-width: 1024px) {
+    .reviews__paragraph {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 70px;
+    }
 }

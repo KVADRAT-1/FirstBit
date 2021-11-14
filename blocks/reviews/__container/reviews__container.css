@@ -1,2 +1,12 @@
+.reviews__container {
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+}
+
 @media (max-width: 1024px) {
+    .reviews__container {
+        width: 470px;
+        flex-direction: column;
+    }
 }

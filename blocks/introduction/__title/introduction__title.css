@@ -1,2 +1,11 @@
+.introduction__title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
 @media (max-width: 1024px) {
+    .introduction__title {
+        line-height: 72px;
+        font-size: 68px;
+    }
 }

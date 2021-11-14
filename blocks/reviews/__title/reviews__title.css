@@ -1,2 +1,12 @@
+.reviews__title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
 @media (max-width: 1024px) {
+    .reviews__title {
+        font-size: 36px;
+        line-height: 39px;
+    }
 }

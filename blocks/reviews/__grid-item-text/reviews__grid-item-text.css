@@ -1,2 +1,14 @@
+.reviews__grid-item-text {
+    max-width: 145px;
+    margin: 20px auto 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
 @media (max-width: 1024px) {
+    .reviews__grid-item-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }

@@ -1,2 +1,10 @@
+.reviews {
+    padding: 200px 25px 200px;
+    background-color: rgb(240, 240, 240);
+}
+
 @media (max-width: 1024px) {
+    .reviews {
+        padding: 180px 20px 200px;
+    }
 }

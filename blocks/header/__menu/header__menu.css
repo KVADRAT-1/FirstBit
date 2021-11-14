@@ -1,0 +1,15 @@
+@media (max-width: 1240px) {
+    .header__menu {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header__menu.active {
+        right: 0;
+    }
+}

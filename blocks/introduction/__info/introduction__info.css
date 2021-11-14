@@ -1,2 +1,12 @@
+.introduction__info {
+    display: flex;
+}
+
 @media (max-width: 1024px) {
+    .introduction__info {
+        width: 260px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

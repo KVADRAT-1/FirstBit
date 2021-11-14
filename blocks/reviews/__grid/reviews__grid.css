@@ -1,2 +1,16 @@
+.reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 244px);
+    grid-template-rows: repeat(2, 287px);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    color: #1f58ff;
+}
+
 @media (max-width: 1024px) {
+    .reviews__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 470px);
+        grid-template-rows: 553px 153px 232px 535px;
+    }
 }

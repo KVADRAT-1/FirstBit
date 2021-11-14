@@ -1,2 +1,12 @@
-@media (max-width: 1024px) {
+.header__body {
+    display: flex;
+    position: relative;
+    height: 60px;
+    align-items: center;
+}
+
+@media (max-width: 1240px) {
+    .header__body {
+        justify-content: space-between;
+    }
 }

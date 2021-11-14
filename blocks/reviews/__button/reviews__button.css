@@ -1,2 +1,16 @@
+.reviews__button {
+    padding: 12px 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    background-color: #1f58ff;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
 @media (max-width: 1024px) {
+    .reviews__button {
+        font-weight: 600;
+    }
 }

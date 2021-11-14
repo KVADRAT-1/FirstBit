@@ -1,2 +1,12 @@
+.reviews__grid-item-numper {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
 @media (max-width: 1024px) {
+    .reviews__grid-item-numper {
+        font-size: 30px;
+        line-height: 38px;
+    }
 }

@@ -1,2 +1,14 @@
+.reviews__box {
+    max-width: 445px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
 @media (max-width: 1024px) {
+    .reviews__box {
+        max-width: 470px;
+        margin-left: 0;
+        text-align: center;
+    }
 }
