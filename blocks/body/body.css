@@ -30,6 +30,13 @@
     transition: all 0.3s ease 0s;
 }
 
+@media (max-width: 1028px) {
+    .chapter {
+        width: max-content;
+        margin: 0 auto;
+    }
+}
+
 /* header ---------------------------------------------------------------------------------------------------------------------------- */
 
 .header {
@@ -547,7 +554,7 @@
 }
 
 .contents__box {
-    width: 660px;
+    max-width: 660px;
     margin: 0 auto;
     padding: 150px 20px;
 }
@@ -589,6 +596,37 @@
 }
 
 @media (max-width: 1024px) {
+    .contents__box {
+        max-width: 420px;
+    }
+
+    .contents__item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contents__number {
+        margin: 0 0 40px;
+        font-size: 36px;
+        line-height: 39px;
+    }
+
+    .contents__box-text {
+        margin-left: 0px;
+    }
+
+    .contents__title {
+        margin: 0 0 25px 0;
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .contents__paragraph {
+        margin: 0 0 40px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #8a8a8a;
+    }
 }
 
 /* newsletter -------------------------------------------------------------- */
@@ -681,11 +719,6 @@
         margin: 0 auto 20px;
         padding: 100px 48px 85px;
         text-align: center;
-    }
-
-    .newsletter__chapter {
-        width: max-content;
-        margin: 0 auto;
     }
 
     .newsletter__chapter:before {
@@ -821,11 +854,6 @@
         max-width: 480px;
         margin: 0 auto 50px;
         text-align: center;
-    }
-
-    .order-book__chapter {
-        width: max-content;
-        margin: 0 auto;
     }
 
     .order-book__title {
