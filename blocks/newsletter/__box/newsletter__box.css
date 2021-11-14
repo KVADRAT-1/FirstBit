@@ -1,2 +1,15 @@
+.newsletter__box {
+    max-width: 648px;
+    padding: 100px 65px 85px;
+    border-radius: 30px 0px 0px 30px;
+    background-color: #141414;
+}
+
 @media (max-width: 1024px) {
+    .newsletter__box {
+        max-width: 384px;
+        margin: 0 auto 20px;
+        padding: 100px 48px 85px;
+        text-align: center;
+    }
 }

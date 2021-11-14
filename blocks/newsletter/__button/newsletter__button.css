@@ -1,2 +1,19 @@
+.newsletter__button {
+    width: 172px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1f58ff;
+    color: white;
+}
+
+.newsletter__button.hover:hover {
+    opacity: 1;
+    background-color: #507cff;
+}
+
 @media (max-width: 1024px) {
+    .newsletter__button {
+        width: 100%;
+    }
 }

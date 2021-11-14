@@ -1,2 +1,13 @@
+.newsletter__form {
+    display: flex;
+    max-width: 520px;
+    height: 40px;
+}
+
 @media (max-width: 1024px) {
+    .newsletter__form {
+        flex-direction: column;
+        max-width: 384px;
+        min-height: 120px;
+    }
 }

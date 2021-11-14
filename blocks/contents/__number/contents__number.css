@@ -1,2 +1,14 @@
+.contents__number {
+    color: #1f58ff;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
 @media (max-width: 1024px) {
+    .contents__number {
+        margin: 0 0 40px;
+        font-size: 36px;
+        line-height: 39px;
+    }
 }

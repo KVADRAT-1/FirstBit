@@ -1,2 +1,16 @@
+.contents__item {
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+.contents__item:last-child {
+    border-bottom: none;
+}
+
 @media (max-width: 1024px) {
+    .contents__item {
+        flex-direction: column;
+        text-align: center;
+    }
 }

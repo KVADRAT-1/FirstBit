@@ -1,2 +1,7 @@
-@media (max-width: 1024px) {
+.contents__chapter:before {
+    background-color: rgb(245, 245, 245);
+}
+
+.contents__chapter {
+    margin-bottom: 100px;
 }

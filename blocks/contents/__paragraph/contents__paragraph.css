@@ -1,2 +1,16 @@
+.contents__paragraph {
+    margin: 0 0 40px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8a8a8a;
+}
+
 @media (max-width: 1024px) {
+    .contents__paragraph {
+        margin: 0 0 40px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #8a8a8a;
+    }
 }

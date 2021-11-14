@@ -1,2 +1,9 @@
+.contents__box-text {
+    margin-left: 50px;
+}
+
 @media (max-width: 1024px) {
+    .contents__box-text {
+        margin-left: 0px;
+    }
 }

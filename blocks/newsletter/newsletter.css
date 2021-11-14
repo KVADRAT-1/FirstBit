@@ -1,2 +1,5 @@
-@media (max-width: 1024px) {
+.newsletter {
+    padding: 130px 25px;
+    background-color: rgb(245, 245, 245);
+    color: white;
 }

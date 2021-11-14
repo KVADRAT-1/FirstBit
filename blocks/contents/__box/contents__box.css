@@ -1,2 +1,11 @@
+.contents__box {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 150px 20px;
+}
+
 @media (max-width: 1024px) {
+    .contents__box {
+        max-width: 420px;
+    }
 }

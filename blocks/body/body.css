@@ -762,141 +762,141 @@ h4 {
 
 /* contents ---------------------------------------------------------------------------------------------------------------------------- */
 
-.contents {
+/* .contents {
     background-color: white;
-}
+} */
 
-.contents__chapter:before {
+/* .contents__chapter:before {
     background-color: rgb(245, 245, 245);
-}
+} */
 
-.contents__chapter {
+/* .contents__chapter {
     margin-bottom: 100px;
-}
+} */
 
-.contents__box {
+/* .contents__box {
     max-width: 660px;
     margin: 0 auto;
     padding: 150px 20px;
-}
+} */
 
-.contents__item {
+/* .contents__item {
     display: flex;
     margin-top: 50px;
     border-bottom: 1px solid black;
-}
+} */
 
-.contents__item:last-child {
+/* .contents__item:last-child {
     border-bottom: none;
-}
+} */
 
-.contents__number {
+/* .contents__number {
     color: #1f58ff;
     font-size: 48px;
     line-height: 52px;
     font-weight: 700;
-}
+} */
 
-.contents__box-text {
+/* .contents__box-text {
     margin-left: 50px;
-}
+} */
 
-.contents__title {
+/* .contents__title {
     margin: 0 0 25px 0;
     font-size: 34px;
     line-height: 44px;
     font-weight: 500;
-}
+} */
 
-.contents__paragraph {
+/* .contents__paragraph {
     margin: 0 0 40px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
     color: #8a8a8a;
-}
+} */
 
 @media (max-width: 1024px) {
-    .contents__box {
+    /* .contents__box {
         max-width: 420px;
-    }
+    } */
 
-    .contents__item {
+    /* .contents__item {
         flex-direction: column;
         text-align: center;
-    }
+    } */
 
-    .contents__number {
+    /* .contents__number {
         margin: 0 0 40px;
         font-size: 36px;
         line-height: 39px;
-    }
+    } */
 
-    .contents__box-text {
+    /* .contents__box-text {
         margin-left: 0px;
-    }
+    } */
 
-    .contents__title {
+    /* .contents__title {
         margin: 0 0 25px 0;
         font-size: 26px;
         line-height: 33px;
-    }
+    } */
 
-    .contents__paragraph {
+    /* .contents__paragraph {
         margin: 0 0 40px;
         font-size: 14px;
         line-height: 20px;
         color: #8a8a8a;
-    }
+    } */
 }
 
 /* newsletter -------------------------------------------------------------- */
 
-.newsletter {
+/* .newsletter {
     padding: 130px 25px;
     background-color: rgb(245, 245, 245);
     color: white;
-}
+} */
 
-.newsletter__container {
+/* .newsletter__container {
     max-width: 1080px;
     max-height: 547px;
     margin: 0 auto;
     display: flex;
-}
+} */
 
-.newsletter__box {
+/* .newsletter__box {
     max-width: 648px;
     padding: 100px 65px 85px;
     border-radius: 30px 0px 0px 30px;
     background-color: #141414;
-}
+} */
 
-.newsletter__chapter:before {
+/* .newsletter__chapter:before {
     background-color: #1f58ff;
-}
+} */
 
-.newsletter__title {
+/* .newsletter__title {
     margin: 30px 0;
     font-size: 48px;
     line-height: 52px;
     font-weight: 700;
-}
+} */
 
-.newsletter__paragraph {
+/* .newsletter__paragraph {
     margin: 0 0 40px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-}
+} */
 
-.newsletter__form {
+/* .newsletter__form {
     display: flex;
     max-width: 520px;
     height: 40px;
-}
+} */
 
-.newsletter__input {
+/* .newsletter__input {
     width: 100%;
     padding: 0 10px;
     border: 2px solid grey;
@@ -905,9 +905,9 @@ h4 {
     font-size: 14px;
     background-color: #141414;
     color: white;
-}
+} */
 
-.newsletter__button {
+/* .newsletter__button {
     width: 172px;
     padding: 12px 40px;
     border: none;
@@ -919,63 +919,59 @@ h4 {
 .newsletter__button.hover:hover {
     opacity: 1;
     background-color: #507cff;
-}
+} */
 
-.newsletter__image {
+/* .newsletter__image {
     border-radius: 0px 30px 30px 0px;
     max-width: 432px;
-}
+} */
 
 @media (max-width: 1024px) {
-    .newsletter__container {
+    /* .newsletter__container {
         max-height: 1180px;
         flex-direction: column;
-    }
+    } */
 
-    .newsletter__box {
+    /* .newsletter__box {
         max-width: 384px;
         margin: 0 auto 20px;
         padding: 100px 48px 85px;
         text-align: center;
-    }
+    } */
 
-    .newsletter__chapter:before {
-        background-color: #1f58ff;
-    }
-
-    .newsletter__title {
+    /* .newsletter__title {
         font-size: 36px;
         line-height: 39px;
-    }
+    } */
 
-    .newsletter__paragraph {
+    /* .newsletter__paragraph {
         font-size: 14px;
         line-height: 20px;
-    }
+    } */
 
-    .newsletter__form {
+    /* .newsletter__form {
         flex-direction: column;
         max-width: 384px;
         min-height: 120px;
-    }
+    } */
 
-    .newsletter__input {
+    /* .newsletter__input {
         width: 100%;
         padding: 0;
         height: 40px;
         margin: 0 0 20px 0;
-    }
+    } */
 
-    .newsletter__button {
+    /* .newsletter__button {
         width: 100%;
-    }
+    } */
 
-    .newsletter__image {
+    /* .newsletter__image {
         min-width: 480px;
         height: 301px;
         margin: 0 auto;
         object-fit: cover;
-    }
+    } */
 }
 
 /* order-book -------------------------------------------------------------- */
