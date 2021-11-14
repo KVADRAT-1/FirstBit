@@ -1,2 +1,12 @@
+.about-henry__paragraph {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
 @media (max-width: 1024px) {
+    .about-henry__paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

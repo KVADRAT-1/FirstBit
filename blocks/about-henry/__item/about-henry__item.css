@@ -1,2 +1,9 @@
+.about-henry__item {
+    margin-right: 25px;
+}
+
 @media (max-width: 1024px) {
+    .about-henry__item:last-child {
+        margin-right: 0;
+    }
 }

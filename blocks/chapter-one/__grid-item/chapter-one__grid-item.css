@@ -1,2 +1,15 @@
+.chapter-one__grid-item:first-child {
+    border-bottom: 1px solid black;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__grid-item:first-child {
+        border-bottom: none;
+    }
+
+    .chapter-one__grid-item:nth-child(2) {
+        border-bottom: 1px solid black;
+        padding-bottom: 70px;
+        margin-bottom: 70px;
+    }
 }

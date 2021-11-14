@@ -1,2 +1,12 @@
+.chapter-one__image {
+    max-width: 382px;
+    max-height: 407px;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__image {
+        min-width: 461px;
+        min-height: 492px;
+        margin-bottom: 30px;
+    }
 }

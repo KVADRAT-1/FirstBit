@@ -1,2 +1,18 @@
+.chapter-one__button {
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff6000;
+    color: white;
+    font-weight: 600;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__button {
+        width: 267px;
+        height: 40px;
+        margin: 0 auto;
+    }
 }

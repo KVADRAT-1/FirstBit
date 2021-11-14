@@ -1,2 +1,12 @@
+.about-henry__list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
 @media (max-width: 1024px) {
+    .about-henry__list {
+        max-width: min-content;
+        margin: 30px auto 0;
+    }
 }

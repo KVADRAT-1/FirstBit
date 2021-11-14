@@ -1,2 +1,13 @@
+.chapter-one__price {
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 36px;
+    color: rgb(255, 96, 0);
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__price {
+        font-size: 26px;
+        line-height: 33px;
+    }
 }

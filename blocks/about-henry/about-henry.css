@@ -1,2 +1,13 @@
+.about-henry {
+    padding: 120px 25px;
+    background-size: cover 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(/images/about-henry/about-henry__background.jpg);
+}
+
 @media (max-width: 1024px) {
+    .about-henry {
+        padding: 120px 20px;
+    }
 }

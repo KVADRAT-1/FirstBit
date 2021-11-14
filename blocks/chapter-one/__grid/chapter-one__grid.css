@@ -1,2 +1,17 @@
+.chapter-one__grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 382px 1fr;
+    row-gap: 70px;
+    column-gap: 50px;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__grid {
+        max-width: 461px;
+        grid-template-columns: 461px;
+        row-gap: 0;
+        text-align: center;
+    }
 }

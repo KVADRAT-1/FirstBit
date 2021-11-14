@@ -1,2 +1,14 @@
+.about-henry__subtitle {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
 @media (max-width: 1024px) {
+    .about-henry__subtitle {
+        max-width: 350px;
+        margin: 30px auto;
+        font-size: 30px;
+        line-height: 38px;
+    }
 }

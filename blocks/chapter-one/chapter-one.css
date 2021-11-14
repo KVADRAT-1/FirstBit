@@ -1,2 +1,17 @@
+.chapter-one {
+    padding: 120px 25px;
+    background-image: url(/images/chapter-one/chapter-one__background.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one {
+        padding: 120px 20px;
+        background-image: url(/images/chapter-one/chapter-one__background.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 }

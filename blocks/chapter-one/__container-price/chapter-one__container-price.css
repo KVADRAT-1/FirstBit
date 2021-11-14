@@ -1,2 +1,11 @@
+.chapter-one__container-price {
+    margin-top: 70px;
+    display: flex;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__container-price {
+        margin-top: 0;
+        flex-direction: column;
+    }
 }

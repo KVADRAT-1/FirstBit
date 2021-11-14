@@ -516,166 +516,166 @@ h4 {
 
 /* about-henry ---------------------------------------------------------------------------------------------------------------------------- */
 
-.about-henry {
+/* .about-henry {
     padding: 120px 25px;
     background-size: cover 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(/images/about-henry/about-henry__background.jpg);
-}
+} */
 
-.about-henry__container {
+/* .about-henry__container {
     max-width: 530px;
     margin: 0 auto 0 18%;
 }
 
 .about-henry__container span {
     color: #1f58ff;
-}
+} */
 
-.bout-henry__title {
+/* .about-henry__title {
     font-size: 48px;
     line-height: 52px;
     font-weight: 700;
-}
+} */
 
-.bout-henry__subtitle {
+/* .about-henry__subtitle {
     font-size: 40px;
     line-height: 50px;
     font-weight: 500;
-}
+} */
 
-.bout-henry__paragraph {
+/* .about-henry__paragraph {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-}
+} */
 
-.about-henry__list {
+/* .about-henry__list {
     display: flex;
     padding: 0;
     list-style: none;
-}
+} */
 
-.about-henry__item {
+/* .about-henry__item {
     margin-right: 25px;
-}
+} */
 
-.about-henry__icon {
+/* .about-henry__icon {
     width: 40px;
-}
+} */
 
 @media (max-width: 1024px) {
-    .about-henry {
+    /* .about-henry {
         padding: 120px 20px;
-    }
+    } */
 
-    .about-henry__container {
+    /* .about-henry__container {
         max-width: 480px;
         margin: 0 auto;
         text-align: center;
-    }
+    } */
 
-    .bout-henry__title {
+    /* .about-henry__title {
         max-width: 300px;
         margin: 30px auto 0;
         font-size: 36px;
         line-height: 39px;
-    }
+    } */
 
-    .bout-henry__subtitle {
+    /* .about-henry__subtitle {
         max-width: 350px;
         margin: 30px auto;
         font-size: 30px;
         line-height: 38px;
-    }
+    } */
 
-    .bout-henry__paragraph {
+    /* .about-henry__paragraph {
         font-size: 14px;
         line-height: 20px;
-    }
+    } */
 
-    .about-henry__list {
+    /* .about-henry__list {
         max-width: min-content;
         margin: 30px auto 0;
-    }
+    } */
 
-    .about-henry__item {
+    /* .about-henry__item {
         margin-right: 25px;
-    }
+    } */
 
-    .about-henry__item:last-child {
+    /* .about-henry__item:last-child {
         margin-right: 0;
-    }
+    } */
 }
 
 /* chapter-one ---------------------------------------------------------------------------------------------------------------------------- */
 
-.chapter-one {
+/* .chapter-one {
     padding: 120px 25px;
     background-image: url(/images/chapter-one/chapter-one__background.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 100%;
-}
+} */
 
-.chapter-one__grid {
+/* .chapter-one__grid {
     max-width: 1080px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 382px 1fr;
     row-gap: 70px;
     column-gap: 50px;
-}
+} */
 
-.chapter-one__grid-item:first-child {
+/* .chapter-one__grid-item:first-child {
     border-bottom: 1px solid black;
-}
+} */
 
-.chapter-one__title {
+/* .chapter-one__title {
     margin: 30px 0 70px;
     font-size: 48px;
     line-height: 52px;
     font-weight: 600;
-}
+} */
 
-.chapter-one__subtitle {
+/* .chapter-one__subtitle {
     margin: 0;
     font-size: 34px;
     line-height: 44px;
     font-weight: 500;
-}
+} */
 
-.chapter-one__image {
+/* .chapter-one__image {
     max-width: 382px;
     max-height: 407px;
-}
+} */
 
-.chapter-one__grid-text {
+/* .chapter-one__grid-text {
     margin: 0 0 30px 0;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-}
+} */
 
-.chapter-one__container-price {
+/* .chapter-one__container-price {
     margin-top: 70px;
     display: flex;
-}
+} */
 
-.chapter-one__price {
+/* .chapter-one__price {
     font-family: 'Space Grotesk';
     font-weight: 500;
     font-size: 36px;
     color: rgb(255, 96, 0);
-}
+} */
 
-.chapter-one__today {
+/* .chapter-one__today {
     font-weight: 400;
     font-size: 16px;
-}
+} */
 
-.chapter-one__button {
+/* .chapter-one__button {
     width: 250px;
     height: 40px;
     margin-left: 50px;
@@ -684,25 +684,25 @@ h4 {
     background-color: #ff6000;
     color: white;
     font-weight: 600;
-}
+} */
 
 @media (max-width: 1024px) {
-    .chapter-one {
+    /* .chapter-one {
         padding: 120px 20px;
         background-image: url(/images/chapter-one/chapter-one__background.png);
         background-position: right bottom;
         background-repeat: no-repeat;
         background-size: 100%;
-    }
+    } */
 
-    .chapter-one__grid {
+    /* .chapter-one__grid {
         max-width: 461px;
         grid-template-columns: 461px;
         row-gap: 0;
         text-align: center;
-    }
+    } */
 
-    .chapter-one__grid-item:first-child {
+    /* .chapter-one__grid-item:first-child {
         border-bottom: none;
     }
 
@@ -710,54 +710,54 @@ h4 {
         border-bottom: 1px solid black;
         padding-bottom: 70px;
         margin-bottom: 70px;
-    }
+    } */
 
-    .chapter-one__title {
+    /* .chapter-one__title {
         margin: 30px 0 50px;
         font-size: 36px;
         line-height: 39px;
-    }
+    } */
 
-    .chapter-one__subtitle {
+    /* .chapter-one__subtitle {
         font-size: 26px;
         line-height: 33px;
-    }
+    } */
 
-    .chapter-one__image {
+    /* .chapter-one__image {
         min-width: 461px;
         min-height: 492px;
         margin-bottom: 30px;
-    }
+    } */
 
-    .chapter-one__grid-text {
+    /* .chapter-one__grid-text {
         font-size: 14px;
         line-height: 20px;
-    }
+    } */
 
-    .chapter-one__container-price {
+    /* .chapter-one__container-price {
         margin-top: 0;
         flex-direction: column;
-    }
+    } */
 
-    .chapter-one__box-price {
+    /* .chapter-one__box-price {
         margin-bottom: 50px;
-    }
+    } */
 
-    .chapter-one__price {
+    /* .chapter-one__price {
         font-size: 26px;
         line-height: 33px;
-    }
+    } */
 
-    .chapter-one__today {
+    /* .chapter-one__today {
         font-size: 13px;
         line-height: 20px;
-    }
+    } */
 
-    .chapter-one__button {
+    /* .chapter-one__button {
         width: 267px;
         height: 40px;
         margin: 0 auto;
-    }
+    } */
 }
 
 /* contents ---------------------------------------------------------------------------------------------------------------------------- */

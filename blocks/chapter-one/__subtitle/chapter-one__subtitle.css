@@ -1,2 +1,13 @@
+.chapter-one__subtitle {
+    margin: 0;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
 @media (max-width: 1024px) {
+    .chapter-one__subtitle {
+        font-size: 26px;
+        line-height: 33px;
+    }
 }

@@ -1,2 +1,16 @@
+.about-henry__container {
+    max-width: 530px;
+    margin: 0 auto 0 18%;
+}
+
+.about-henry__container span {
+    color: #1f58ff;
+}
+
 @media (max-width: 1024px) {
+    .about-henry__container {
+        max-width: 480px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
