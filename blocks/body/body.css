@@ -4,6 +4,13 @@
     background-color: rgb(245, 245, 245);
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 /* all ---------------------------------------------------------------------------------------------------------------*/
 
 .chapter {
@@ -250,7 +257,8 @@
 }
 
 .introduction__price {
-    font-weight: 600;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
     font-size: 36px;
     color: rgb(255, 96, 0);
 }
@@ -399,6 +407,7 @@
 
 .reviews__box {
     max-width: 445px;
+    margin-top: 50px;
     margin-left: 50px;
     padding-top: 50px;
 }
@@ -410,13 +419,13 @@
 }
 
 .reviews__paragraph {
+    margin-bottom: 50px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
 }
 
 .reviews__button {
-    margin-top: 50px;
     padding: 12px 40px;
     font-size: 16px;
     line-height: 16px;
@@ -604,7 +613,11 @@
 /* chapter-one ---------------------------------------------------------------------------------------------------------------------------- */
 
 .chapter-one {
-    padding: 140px 20px;
+    padding: 120px 25px;
+    background-image: url(/images/chapter-one/chapter-one__background.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .chapter-one__grid {
@@ -652,7 +665,8 @@
 }
 
 .chapter-one__price {
-    font-weight: 600;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
     font-size: 36px;
     color: rgb(255, 96, 0);
 }
@@ -675,7 +689,7 @@
 
 @media (max-width: 1024px) {
     .chapter-one {
-        padding: 120px 25px;
+        padding: 120px 20px;
         background-image: url(/images/chapter-one/chapter-one__background.png);
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -1022,7 +1036,8 @@
 }
 
 .order-book__price {
-    font-weight: 600;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
     font-size: 36px;
     color: rgb(255, 96, 0);
 }
@@ -1031,7 +1046,7 @@
     width: 150px;
     height: 40px;
     margin-left: 60px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     border-radius: 40px;
     border: none;
@@ -1102,6 +1117,7 @@
 }
 
 .cover__title {
+    font-family: Roboto;
     max-width: 930px;
     margin: 0 auto 100px;
     font-size: 48px;
@@ -1201,6 +1217,9 @@
 }
 
 .footer__title {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
     margin: 0 0 35px 0;
 }
 
